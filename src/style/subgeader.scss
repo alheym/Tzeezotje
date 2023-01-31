@@ -1,0 +1,59 @@
+
+.subheader {
+    width: 1170px;
+    margin: 0 auto;
+
+    &_container {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        gap: 45px;
+        height: 95px;
+        padding-top: 25px;
+    }
+
+    &_nav {
+        margin: 0;
+        li {
+            display: inline;
+        }
+    }
+
+    &_item {
+        margin-top: 16px;
+
+        &-logo {
+            margin-right: 85px;
+        }
+
+        &-phone {
+            margin-left: 112px;
+        }
+
+        &-img {
+            margin: 0 11px 3px 0;
+        }
+
+        a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                color: #b7bcd4;
+                transition: all .4s;
+            }
+        }
+    }
+
+    &_logo {
+        display: block;
+        max-width: 100%;
+
+    }
+
+}

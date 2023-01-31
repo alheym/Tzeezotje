@@ -1,0 +1,53 @@
+.quote {
+    margin-top: 90px;
+    height: 782px;
+    background: #3A4574;
+
+    &_container {
+        width: 1170px;
+        margin: 0 auto;
+        padding-top: 60px;
+        display: flex;
+    }
+
+    &_item {
+        margin-top: 20px;
+        width: 785px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-icon {
+
+            width: 83px;
+            height: 58px;
+        }
+
+        &-tittle {
+            margin-top: 34px;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 40px;
+            color: #D3B47F;
+        }
+
+        &-descr {
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 40px;
+            color: #FFFFFF;
+        }
+
+        &-signature {
+            margin-top: 40px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 40px;
+            letter-spacing: 0.245em;
+            color: #D3B47F;
+        }
+    }
+
+
+}
