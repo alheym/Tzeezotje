@@ -423,13 +423,30 @@
 
 @media (max-width: 480px) {
 
+    .modal {
+        width: 250px;
+    }
+
+    .navigation_list {
+        width: 200px;
+    }
+
+    .hamburger {
+        top: 45px;
+        right: 10px;
+    }
+
     .subheader {
-        width: 400px;
+        width: 100%;
 
         &_item {
 
             &-logo {
                 margin-right: 45px;
+
+                img {
+                    height: 45%;
+                }
             }
         }
     }
@@ -437,12 +454,17 @@
     .promo {
 
         &_container {
-            width: 400px;
+            padding-top: 100px;
+            width: 80%;
+        }
+
+        &_header {
+            font-size: 26px;
         }
 
         &_descr {
-            font-size: 50px;
-            line-height: 70px;
+            font-size: 46px;
+            line-height: 54px;
         }
 
         &_reserve {
@@ -452,38 +474,43 @@
         }
 
         &_social {
-            gap: 15px;
+            gap: 20px;
         }
     }
 
     .menu {
         &_container {
-            width: 400px;
+            width: 80%;
         }
 
         &_item {
             margin-left: 15px;
-            width: 380px;
+            width: 250px;
+
+            &-text {
+                font-size: 16px;
+            }
         }
     }
 
     .frame-wrap {
+        display: none;
         width: 400px;
         height: 660px;
         top: -10px;
-        left: -397px;
+        left: -265px;
 
         .frame {
             width: 400px;
-            height: 660px;
+            height: 700px;
         }
     }
 
     .quote {
-        height: 550px;
+        height: 100%;
 
         &_container {
-            width: 480px;
+            width: 80%;
         }
 
         &_item {
@@ -501,126 +528,7 @@
 
             &-signature {
                 font-size: 18px;
-            }
-        }
-    }
-}
-
-@media (max-width: 320px) {
-
-    .hamburger {
-        right: 20px;
-        top: 50px;
-    }
-
-    .subheader {
-        width: 280px;
-
-        &_item {
-
-            &-logo {
-                margin-right: 45px;
-
-                img {
-                    height: 45px;
-                }
-            }
-        }
-    }
-
-    .promo {
-
-        &_container {
-            padding-top: 140px;
-            width: 280px;
-        }
-
-        &_header {
-            font-size: 16px;
-        }
-
-        &_descr {
-            font-size: 42px;
-            line-height: 50px;
-            margin: 25px 0 55px;
-        }
-
-        &_reserve {
-            gap: 50px;
-        }
-
-        &_social {
-            gap: 15px;
-        }
-    }
-
-    .menu {
-        &_container {
-            width: 280px;
-        }
-
-        &_item {
-            margin-left: 15px;
-            width: 240px;
-
-            &:nth-child(2) {
-                width: 220px;
-            }
-
-            &-text {
-                font-size: 14px;
-
-                span {
-                    &:nth-child(3) {
-                        margin-right: 25px;
-                    }
-                }
-            }
-        }
-    }
-
-    .frame-wrap {
-        width: 278px;
-        height: 700px;
-        top: -10px;
-        left: -255px;
-
-        .frame {
-            width: 278px;
-            height: 700px;
-        }
-    }
-
-    .quote {
-        height: 100%;
-
-        &_container {
-            width: 280px;
-        }
-
-        &_item {
-            width: 240px;
-            margin-top: 0;
-
-            &-icon {
-                width: 55px;
-                height: 38px;
-            }
-
-            &-tittle {
-                font-size: 22px;
-                line-height: 32px
-            }
-
-            &-descr {
-                font-size: 12px;
-                line-height: 12px;
-            }
-
-            &-signature {
-                margin-bottom: 20px;
-                padding-bottom: 10px;
-                font-size: 14px;
+                margin-bottom: 40px;
             }
         }
     }
@@ -644,6 +552,83 @@
         line-height: 20px;
         font-size: 14px;
         background-color: #D3B47F;
-        
+
+    }
+}
+
+@media (max-width: 320px) {
+
+    .modal {
+        width: 180px;
+
+        &_content {
+            &-tittle {
+                font-size: 20px;
+                line-height: 26px;
+            }
+        }
+    }
+
+    .navigation {
+
+        &_list {
+            width: 180px;
+
+            li {
+                margin-left: 10px;
+            }
+        }
+
+        &_social {
+            margin-left: 10px;
+        }
+    }
+
+    .menu {
+        &_container {
+            width: 80%;
+        }
+
+        &_item {
+            margin-left: 15px;
+            width: 200px;
+
+            &:nth-child(2) {
+                width: 200px;
+
+                span {
+                    &:nth-child(3) {
+                        margin-right: 35px;
+                    }
+                }
+            }
+
+            &-tittle {
+                font-size: 20px;
+            }
+
+            &-text {
+                font-size: 12px;
+
+                span {
+                    &:nth-child(3) {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .frame-wrap {
+        display: none;
+        width: 100px;
+        height: 100px;
+        top: -10px;
+        left: -220px;
+
+        .frame {
+            width: 260px;
+            height: 715px;
+        }
     }
 }
