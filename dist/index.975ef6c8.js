@@ -564,7 +564,7 @@ var _modal = require("./modules/modal/modal");
 var _navigation = require("./modules/navigation/navigation");
 window.addEventListener("DOMContentLoaded", ()=>{
     const form = document.querySelector(".reserve");
-    (0, _modal.modal)("[data-modal]", ".modal", ".overlay");
+    (0, _modal.modal)("[data-modal]", ".modal", ".modal_overlay");
     (0, _navigation.nav)(".hamburger", ".navigation", ".overlay");
     form.submit(function(e) {
         e.preventDefault();

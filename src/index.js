@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const form = document.querySelector('.reserve');
 
-    modal('[data-modal]', '.modal', '.overlay');
+    modal('[data-modal]', '.modal', '.modal_overlay');
     nav('.hamburger', '.navigation', '.overlay');
 
 

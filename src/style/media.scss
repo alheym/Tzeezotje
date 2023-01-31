@@ -423,6 +423,14 @@
 
 @media (max-width: 480px) {
 
+    .modal {
+        width: 250px;
+    }
+
+    .navigation_list {
+        width: 200px;
+    }
+
     .hamburger {
         top: 45px;
         right: 10px;
@@ -520,6 +528,7 @@
 
             &-signature {
                 font-size: 18px;
+                margin-bottom: 40px;
             }
         }
     }
@@ -549,51 +558,31 @@
 
 @media (max-width: 320px) {
 
-    // .hamburger {
-    //     right: 20px;
-    //     top: 50px;
-    // }
+    .modal {
+        width: 180px;
 
-    // .subheader {
-    //     width: 80%;
+        &_content {
+            &-tittle {
+                font-size: 20px;
+                line-height: 26px;
+            }
+        }
+    }
 
-    //     &_item {
+    .navigation {
 
-    //         &-logo {
-    //             margin-right: 45px;
+        &_list {
+            width: 180px;
 
-    //             img {
-    //                 height: 25%;
-    //             }
-    //         }
-    //     }
-    // }
+            li {
+                margin-left: 10px;
+            }
+        }
 
-    // .promo {
-
-    //     &_container {
-    //         padding-top: 140px;
-    //         width: 280px;
-    //     }
-
-    //     &_header {
-    //         font-size: 16px;
-    //     }
-
-    //     &_descr {
-    //         font-size: 42px;
-    //         line-height: 50px;
-    //         margin: 25px 0 55px;
-    //     }
-
-    //     &_reserve {
-    //         gap: 50px;
-    //     }
-
-    //     &_social {
-    //         gap: 15px;
-    //     }
-    // }
+        &_social {
+            margin-left: 10px;
+        }
+    }
 
     .menu {
         &_container {
