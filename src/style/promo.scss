@@ -2,13 +2,13 @@
     min-height: 901px;
     background: url('./img/promo.png') center (center / cover) no-repeat;
 
-    &_container {
+    &__container {
         width: 1170px;
         margin: 0 auto;
         padding-top: 154px;
     }
 
-    &_header {
+    &__header {
         color: #FFFFFF;
         font-weight: 500;
         font-size: 24px;
@@ -17,7 +17,7 @@
         cursor: default;
     }
 
-    &_descr {
+    &__descr {
         font-weight: 700;
         font-size: 64px;
         line-height: 88px;
@@ -27,7 +27,7 @@
         caret-color: transparent;
     }
 
-    &_reserve {
+    &__reserve {
         margin-top: 40px;
         display: flex;
         justify-content: space-between;
@@ -51,7 +51,7 @@
         }
     }
 
-    &_social {
+    &__social {
         display: flex;
         align-items: center;
         gap: 25px;

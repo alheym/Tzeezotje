@@ -3,7 +3,7 @@
     width: 1170px;
     margin: 0 auto;
 
-    &_container {
+    &__container {
         display: flex;
         flex-wrap: wrap;
         align-content: center;
@@ -13,14 +13,14 @@
         padding-top: 25px;
     }
 
-    &_nav {
+    &__nav {
         margin: 0;
         li {
             display: inline;
         }
     }
 
-    &_item {
+    &__item {
         margin-top: 16px;
 
         &-logo {
@@ -50,7 +50,7 @@
         }
     }
 
-    &_logo {
+    &__logo {
         display: block;
         max-width: 100%;
 

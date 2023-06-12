@@ -3,14 +3,14 @@
     height: 782px;
     background: #3A4574;
 
-    &_container {
+    &__container {
         width: 1170px;
         margin: 0 auto;
         padding-top: 60px;
         display: flex;
     }
 
-    &_item {
+    &__item {
         margin-top: 20px;
         width: 785px;
         display: flex;
@@ -48,6 +48,4 @@
             color: #D3B47F;
         }
     }
-
-
 }

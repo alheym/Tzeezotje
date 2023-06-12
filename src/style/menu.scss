@@ -1,12 +1,12 @@
 .menu {
-    &_container {
+    &__container {
         width: 1170px;
         margin: 0 auto;
         padding-top: 60px;
         display: flex;
     }
 
-    &_item {
+    &__item {
         width: 469px;
         border-bottom: 1px solid #E7E7E7;
 
@@ -40,7 +40,7 @@
         }
     }
 
-    &_img {
+    &__img {
         display: flex;
         margin-left: 34px;
 

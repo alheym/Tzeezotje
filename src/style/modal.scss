@@ -28,7 +28,7 @@
     padding: 30px;
     border-radius: 30px;
 
-    &_close {
+    &__close {
         position: absolute;
         top: 5px;
         right: -35px;
@@ -43,7 +43,7 @@
         }
     }
 
-    &_content {
+    &__content {
 
         &-tittle {
             caret-color: transparent;
