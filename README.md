@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/62de5647-d665-40e1-910a-6637a8a4e45d/deploy-status)](https://app.netlify.com/sites/glittering-melomakarona-de511c/deploys)
+
 # Tzeezotje
 
 Website of the restaurant «Tzeezotje»
