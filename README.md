@@ -30,6 +30,8 @@ npm run build
     <img src="https://parceljs.org/avatar.b1be591d.avif" title="Parcel" alt="Parcel" width="40"/>&nbsp;
 </div>
 
+slider: [swiper 8.4.6](https://swiperjs.com/)
+
 ## UI
 [Model](https://www.figma.com/file/f1GJjeURU58Xdb6bVBwP3n/Tzeezotje-(Copy)?node-id=0%3A1&t=wLaYEFijtmgyfXfY-0)
 
